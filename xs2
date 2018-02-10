@@ -1,0 +1,5 @@
+#!/bin/sh
+
+xfconf-query -c xsettings -p /Xft/DPI -s 184
+xfconf-query -c xfce4-panel -p /panels/panel-1/size -s 49
+xrandr --output eDP-1 --scale 1x1 --filter nearest
